@@ -1,0 +1,54 @@
+<body>
+    <!--===========================
+                Header
+    ============================-->
+
+    <header>
+        <div>
+    <h1> Welcome to important stuff. To exit just click outside the video and press the esc</h1>
+  </div>
+    </header>
+
+    <!--===========================
+                Video
+    ============================-->
+
+    <section>
+        <div class="inner-section">
+            <div class="wrapper">
+                <div id="video" class="videoWrapper">
+                    <!-- Video Inserted Here -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--===========================
+                Playlist
+    ============================-->
+    <a href="javascript:window.open('','_self').close();">close</a>
+
+    <main>
+    <!-- Playlist Inserted Here -->
+    </main>
+
+    <!--===========================
+              Load More
+    ============================-->
+    
+    <footer>
+        <div class="inner-footer">
+            <a href="#" class="load-more">Load More</a>
+        </div>
+    </footer>
+
+    <script>
+
+ document.addEventListener('keydown', function(event) {
+    const key = event.key; // const {key} = event; in ES6+
+    if (key === "Escape") {
+        window.close();
+    }
+});
+
+</script>

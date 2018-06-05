@@ -1,0 +1,36 @@
+body {
+  background-image:url("excel2.png");
+  background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    opacity: 0.95;
+}
+
+p{
+  color: red;
+  background-color: white;
+  font-size: 20px;
+}
+
+#button {
+  color: red;
+}
+
+#contentframe {
+  padding-top: 50px;
+  float-right: 100px;
+  position: relative;
+  margin-left: 650px;
+}
+
+.header {
+  text-align: center;
+}
+
+h1 {
+  background-color: white;
+  color: black;
+  text-align: center;
+  font-size: 38px;
+}
