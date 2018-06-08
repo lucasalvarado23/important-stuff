@@ -1,4 +1,4 @@
-document.addEventListener('keydown', function(event) {
+ document.addEventListener('keydown', function(event) {
     const key = event.key; // const {key} = event; in ES6+
     if (key === "Escape") {
         window.close();
@@ -16,7 +16,7 @@ $(document).ready(function() {
         $.get("https://www.googleapis.com/youtube/v3/playlistItems", {
             part: "snippet",
             key: key,
-            maxResults: 10,
+            maxResults: 20,
             playlistId: playlistId,
             pageToken: t
         }, function(t) {

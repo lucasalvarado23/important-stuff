@@ -43,7 +43,7 @@ $(document).ready(function() {
             'https://www.googleapis.com/youtube/v3/playlistItems', {
                 part: 'snippet',
                 key: key,
-                maxResults: 10,
+                maxResults: 20,
                 playlistId: playlistId,
                 pageToken: token
             },
@@ -95,7 +95,6 @@ $(document).ready(function() {
     function displayVid(id) {
         $('#video').html(`<iframe class="video" src="https://www.youtube.com/embed/${id}?rel=0&amp;controls=1&amp&amp;showinfo=0&amp;modestbranding=0" frameborder="0" allowfullscreen></iframe>`);
     }
-
 
     //--------------------
     // Aspect ratio for video
