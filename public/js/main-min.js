@@ -16,7 +16,7 @@ $(document).ready(function() {
         $.get("https://www.googleapis.com/youtube/v3/playlistItems", {
             part: "snippet",
             key: key,
-            maxResults: 20,
+            maxResults: 2,
             playlistId: playlistId,
             pageToken: t
         }, function(t) {
