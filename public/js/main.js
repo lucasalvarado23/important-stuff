@@ -43,7 +43,7 @@ $(document).ready(function() {
             'https://www.googleapis.com/youtube/v3/playlistItems', {
                 part: 'snippet',
                 key: key,
-                maxResults: 2,
+                maxResults: 10,
                 playlistId: playlistId,
                 pageToken: token
             },
