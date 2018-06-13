@@ -1,9 +1,9 @@
- /*document.addEventListener('keydown', function(event) {
+ document.addEventListener('keydown', function(event) {
     const key = event.key; // const {key} = event; in ES6+
     if (key === "Escape") {
         window.location.href = "about:home"
     }
-}); */
+}); 
 
  document.addEventListener('keydown', function(event) {
     const key = event.key; // const {key} = event; in ES6+
